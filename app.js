@@ -1,1 +1,63 @@
-document.querySelectorAll('[data-search]').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();const q=f.querySelector('input').value.trim();const target=document.getElementById('discover');if(target)target.scrollIntoView({behavior:'smooth'});if(q){document.querySelectorAll('[data-filter]').forEach(c=>c.hidden=!c.textContent.toLowerCase().includes(q.toLowerCase()))}}));document.querySelectorAll('[data-newsletter]').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();const m=f.querySelector('input').value.trim();alert(m?'Thanks. Please confirm your subscription through the email workflow once connected.':'Enter an email address.')}));
+document.addEventListener("DOMContentLoaded", () => {
+
+  // Search form
+  document.querySelectorAll("[data-search]").forEach(form => {
+    form.addEventListener("submit", event => {
+      event.preventDefault();
+
+      const input = form.querySelector('input[type="search"]');
+
+      if (!input) return;
+
+      const query = input.value.trim().toLowerCase();
+
+      const target = document.getElementById("discover");
+
+      if (target) {
+        target.scrollIntoView({
+          behavior: "smooth"
+        });
+      }
+
+      document.querySelectorAll("[data-filter]").forEach(card => {
+
+        if (!query) {
+          card.hidden = false;
+          return;
+        }
+
+        card.hidden =
+          !card.textContent
+            .toLowerCase()
+            .includes(query);
+
+      });
+    });
+  });
+
+  // Newsletter form
+  document
+    .querySelectorAll("[data-newsletter]")
+    .forEach(form => {
+
+      form.addEventListener("submit", event => {
+        event.preventDefault();
+
+        const email =
+          form.querySelector('input[type="email"]');
+
+        if (!email || !email.value.trim()) {
+          alert("Please enter a valid email address.");
+          return;
+        }
+
+        alert(
+          "Thank you for subscribing. Newsletter integration will be connected later."
+        );
+
+        form.reset();
+      });
+
+    });
+
+});
