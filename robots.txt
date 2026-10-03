@@ -1,12 +1,4 @@
 User-agent: *
-
 Allow: /
 
-Disallow: /admin/
-Disallow: /private/
-Disallow: /tmp/
-Disallow: /cgi-bin/
-
 Sitemap: https://ticktes.online/sitemap.xml
-
-Crawl-delay: 2
