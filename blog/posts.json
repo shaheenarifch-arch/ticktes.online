@@ -5,5 +5,19 @@
     "description": "Compare the best city pass for visiting multiple attractions, from flexible bundles to museum passes, and learn how to pick the right one.",
     "file": "best-city-pass-for-visiting-multiple-attractions.html",
     "date": "2026-10-05"
+  },
+  {
+    "keyword": "best way to skip lines at popular tourist attractions",
+    "title": "Best Way to Skip Lines at Popular Tourist Attractions",
+    "description": "Learn the best way to skip lines at popular tourist attractions with timed entry, skip-the-line tickets, and city passes that save real time.",
+    "file": "best-way-to-skip-lines-at-popular-tourist-attractions.html",
+    "date": "2026-10-15",
+    "archetype": "authority_guide",
+    "archetype_confidence": 0.62,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.79
   }
 ]
