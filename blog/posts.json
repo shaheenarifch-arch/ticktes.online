@@ -19,5 +19,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.79
+  },
+  {
+    "keyword": "how to book guided outdoor recreation experiences near me",
+    "title": "How to Book Guided Outdoor Recreation Experiences Near Me",
+    "description": "Learn how to book guided outdoor recreation experiences near me with this step-by-step guide covering research, booking platforms, safety checks, and tips.",
+    "file": "how-to-book-guided-outdoor-recreation-experiences-near-me.html",
+    "date": "2026-10-19",
+    "archetype": "how_to",
+    "archetype_confidence": 0.95,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.17
   }
 ]
