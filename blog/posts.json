@@ -33,5 +33,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.17
+  },
+  {
+    "keyword": "affordable passes for outdoor adventure activities in national parks",
+    "title": "Affordable Passes for Outdoor Adventure Activities in National Parks",
+    "description": "Struggling to find affordable passes for outdoor adventure activities in national parks? Get causes, quick checks, and fixes to stop overpaying.",
+    "file": "affordable-passes-for-outdoor-adventure-activities-in-nation.html",
+    "date": "2026-10-21",
+    "archetype": "problem_solution",
+    "archetype_confidence": 0.57,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 8.75
   }
 ]
