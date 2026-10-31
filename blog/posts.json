@@ -54,5 +54,19 @@
     "description": "Plan your Boston trip: top attractions, free sights and smart ways to save on tickets and passes, with sample itineraries and booking tips for every visit.",
     "file": "things-to-do-boston-tickets-passes-guide.html",
     "date": "2026-10-22"
+  },
+  {
+    "keyword": "US city passes and attraction tickets complete guide",
+    "title": "US City Passes and Attraction Tickets Complete Guide",
+    "description": "This complete guide to US city passes and attraction tickets explains pass types, pricing logic, mistakes to avoid, and how to pick the right option.",
+    "file": "us-city-passes-and-attraction-tickets-complete-guide.html",
+    "date": "2026-10-31",
+    "archetype": "authority_guide",
+    "archetype_confidence": 0.9,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.55
   }
 ]
