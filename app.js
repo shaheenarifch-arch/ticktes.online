@@ -51,11 +51,20 @@ document.addEventListener("DOMContentLoaded", () => {
           return;
         }
 
-        alert(
-          "Thank you for subscribing. Newsletter integration will be connected later."
-        );
-
-        form.reset();
+        fetch(form.action, {
+          method: "POST",
+          headers: { Accept: "application/json" },
+          body: new FormData(form)
+        })
+          .then(response => response.json())
+          .then(data => {
+            if (!data || !data.success) throw new Error("not saved");
+            alert("Thank you for subscribing.");
+            form.reset();
+          })
+          .catch(() => {
+            alert("Sorry, that did not go through. Please try again.");
+          });
       });
 
     });
