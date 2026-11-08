@@ -68,5 +68,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.55
+  },
+  {
+    "keyword": "is a boston city pass worth it",
+    "title": "Is a Boston City Pass Worth It? Full Checklist Guide",
+    "description": "Is a Boston city pass worth it for your trip? This checklist compares costs, attractions, validity windows, and savings to help you decide before booking.",
+    "file": "is-a-boston-city-pass-worth-it.html",
+    "date": "2026-11-08",
+    "archetype": "checklist",
+    "archetype_confidence": 0.55,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.4
   }
 ]
